@@ -1,29 +1,39 @@
 
+<?php
 
-<html>
+/*
+Add New Agent
 
-<head>
+CONVERT TO PHP
+*/
 
-<title>Create New Agent</title>
+include("header.html"); //  Page header
 
-</head>
+//include("conn.php");  //  Connect to database
+
+echo '
+</br><center><h1>
+Create New Agent
+</h1></center></br>';
+
+/*
 
 <style>
-/* Create three equal columns that floats next to each other */
+//Create three equal columns that floats next to each other 
 .column {
     float: left;
     width: 33.33%;
     padding: 15px;
 }
 
-/* Clear floats after the columns */
+//Clear floats after the columns
 .row:after {
     content: "";
     display: table;
     clear: both;
 }
 
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+//Responsive layout - makes the three columns stack on top of each other instead of next to each other
 @media screen and (max-width:600px) {
     .column {
         width: 100%;
@@ -31,14 +41,6 @@
 }
 
 </style>
-
-<body>
-
-<?php
-include 'menu.php';
-?>
-
-<h1>Create New Agent</h1>
 
 <form>
 
@@ -86,7 +88,9 @@ include 'menu.php';
 
 </form>
 
-</body>
+*/
 
-</html>
+include("footer.html"); //  Page footer
+
+?>
 
