@@ -1,12 +1,8 @@
 
-<!--
-Footer
--->
-
-<hr>
-<p>
+<hr>    <!--Begin Footer-->
+<h3><center>
 GEM System
-</P>
+</center></h3>
 <hr>
-</body>
+</body> <!--End Footer-->
 </html>
